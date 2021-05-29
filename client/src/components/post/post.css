@@ -1,0 +1,140 @@
+.post {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 30px 0;
+}
+
+.postWrapper {
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postUsername {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.postDate{
+    font-size: 12px;
+}
+
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+
+.postCenter{
+    margin: 30px 0;
+    margin-left: 30px;
+    align-items: center;
+    width: 100%;
+}
+
+.commentWrapper{
+  margin-left: 30px;
+  justify-content: space-between;
+}
+
+.commentInput{
+  margin-left: 60px;
+  width: 100%;
+  flex: 1;
+}
+
+.textInput{
+  margin: 10px;
+  margin-top: 20px;
+  margin-right: 60px;
+  justify-content: centre;
+  padding: 3px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid #00485A;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px #00485A;
+  box-shadow: 0px 0px 16px -8px #00485A;
+  justify-self: center;
+}
+
+.commentInput{
+  margin: 10px;
+  margin-top: 20px;
+  width: 60%;
+  height: 50px;
+  padding: 3px;
+  font-size: 15px;
+  font-weight: 400;
+  flex: 1;
+  justify-content: space-between;
+  border: 1px solid #00485A;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px #00485A;
+  box-shadow: 0px 0px 16px -8px #00485A;
+  display: flex;
+  align-items: center;
+}
+
+.commentBtn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color:rgb(237, 106, 111);
+  font-weight: 500;
+  margin-left: 20px;
+  cursor: pointer;
+  color: white;
+  margin-top: 10px;
+}
+
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom:30px;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;   
+}
+
+.likeIcon{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.postLikeCounter{
+    font-size: 15px;
+}
+
+.postBottomRight{
+
+  font-weight:50;
+  display: flex;
+  align-items: center;  
+  font-size: 10px; 
+  justify-content: space-between;
+  margin: 0 10px;
+}
